@@ -1,0 +1,19 @@
+# Sensitive environment variables
+.env
+.env.*
+!.env.example
+
+# Lavalink logs
+logs/
+*.log
+
+# Lavalink binaries & plugins
+Lavalink.jar
+plugins/*.jar
+!plugins/.gitkeep
+
+# System & editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
